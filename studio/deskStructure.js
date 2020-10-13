@@ -12,7 +12,7 @@ const hiddenDocTypes = (listItem) =>
 
 export default () =>
   S.list()
-    .title('Content')
+    .title('Sites')
     .items([
       S.documentListItem()
         .schemaType('siteSettings')
